@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17A6AC"
+    tools:context=".RedFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TPFL,Program keahlian Teknik Pengelasan dan Fabrikasi Logam (TPFL) merupakan kompetensi keahlian yang masuk dalam Program Keahlian Teknik Mesin  dan dalam Bidang Keahlian Teknologi Rekayasa. Lama pendidikan kompetensi keahlian TLas ini adalah selama  tiga (3) tahun. Kompetensi Keahlian TLas menawarkan beberapa pembelajaran dibidang pemesinan khususnya dibidang industri manufaktur. "
+            android:textColor="#1450AC"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
